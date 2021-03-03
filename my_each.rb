@@ -1,3 +1,4 @@
+require 'pry'
 def my_each(array) # put argument(s) here
   # code here
   i = 0
@@ -10,4 +11,5 @@ end
 
 my_each([1, 2, 3, 4]) do |item|
   item
+  binding.pry
 end
